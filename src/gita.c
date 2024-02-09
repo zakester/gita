@@ -36,6 +36,9 @@ int main(int argc, char *argv[]) {
 
   printf("Total Insertions: %zu\n", total_insertion);
   printf("Total Deletions: %zu\n", total_deletion);
+  printf("-----------------------------------------------\n");
+  printf("Total: %zu\n", total_insertion + total_deletion);
+
 
   return EXIT_SUCCESS;
 }
